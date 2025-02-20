@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Suite landing page</title>
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <img class="logo" src="assets/logo.svg" alt="" />
+        <button class="header__btn bold">Request Beta Access</button>
+      </header>
+      <section class="hero">
+        <div class="hero__container">
+          <article class="hero__content">
+            <div class="hero__illustration__container">
+              <img
+                class="hero__illustration"
+                src="assets/pattern-curved-line-1.svg"
+                alt=""
+              />
+            </div>
+            <h1 class="hero__title h normal">
+              A <span class="bold">super solution</span> for your
+              <span class="bold">business.</span>
+            </h1>
+            <p class="hero__description">
+              Our marketing and sales automations help you scale your outreach
+              to get more leads for your company.
+            </p>
+            <button class="hero__btn white">Request Beta Access</button>
+          </article>
+          <picture class="hero__image__container">
+            <source
+              class="hero__image"
+              srcset="./assets/image-hero-portrait@2x.webp"
+              media="(min-width: 768px)"
+            />
+            <img
+              class="hero__image"
+              src=" ./assets/image-hero-landscape@2x.webp"
+              alt=""
+            />
+          </picture>
+        </div>
+        <section class="hero__stats">
+          <div class="stat__box">
+            <h3 class="stat__amount bold">2K+</h3>
+            <p class="stat__title normal">COMPANIES</p>
+          </div>
+          <div class="stat__box">
+            <h3 class="stat__amount bold">8</h3>
+            <p class="stat__title normal">LANGUAGES</p>
+          </div>
+          <div class="stat__box">
+            <h3 class="stat__amount bold">1.2M</h3>
+            <p class="stat__title normal">LEADS</p>
+          </div>
+        </section>
+      </section>
+      <footer class="footer">
+        <section class="testimonial">
+          <picture class="testimonial__image__container">
+            <source
+              class="testimonial__image"
+              srcset="./assets/image-jeremy-large@2x.webp"
+              media="(min-width: 768px)"
+            />
+            <img
+              class="testimonial__image"
+              src="./assets/image-jeremy-small@2x.webp"
+              alt=""
+            />
+          </picture>
+          <div class="testimonial__illustration__container">
+            <img
+              class="testimonial__illustration"
+              src="assets/pattern-curved-line-2.svg"
+              alt=""
+            />
+          </div>
+          <div class="testimonial__content">
+            <h4 class="testimonial__title white">
+              It just <span class="bold">works.</span>
+            </h4>
+            <blockquote class="testimonial__blockquote beige">
+              <p class="testimonial__quote">
+                “I really like how it is an all-in-one solution that handle many
+                of the tasks that you would normally need separate tools to do
+                the same job. This thing is a miracle worker.”
+              </p>
+              <cite class="bold">JEREMY ROBINSON</cite>
+              <p class="cmo">CMO, FYLO</p>
+            </blockquote>
+          </div>
+        </section>
+        <div class="footer__bottom">
+          <img class="footer__logo" src="assets/logo.svg" alt="" />
+          <p class="footer__copyright">Copyright - Suite</p>
+          <ul class="footer__social-medias">
+            <li class="social-media__icon">
+              <img src="assets/icon-facebook.svg" alt="" />
+            </li>
+            <li class="social-media__icon">
+              <img src="assets/icon-twitter.svg" alt="" />
+            </li>
+            <li class="social-media__icon">
+              <img src="assets/icon-instagram.svg" alt="" />
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
